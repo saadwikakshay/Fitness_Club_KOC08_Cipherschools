@@ -1,0 +1,75 @@
+  body {
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      color: white;
+      margin: 0px;
+      padding: 0px;
+      background-image: url(./img/cool.jpg);
+  }
+
+  .left {
+      display: inline-block;
+      /*border: 2px solid red;*/
+      position: absolute;
+      left: 34px;
+      top: 15px;
+
+  }
+
+  .left .logo {
+      color: white;
+      font-size: 30px;
+      margin-top: 10px;
+      text-decoration: none;
+  }
+
+  .left .logo text span {
+      margin-left: 80px;
+  }
+
+  .mid {
+      display: block;
+      width: 50%;
+      margin: 20px auto;
+      /*border: 2px solid green;*/
+      margin-bottom: 0;
+
+  }
+
+  .right {
+      position: absolute;
+      right: 34px;
+      top: 3px;
+      padding: 2px 3px;
+      display: inline-block;
+      /*border: 2px solid yellow*/
+  }
+
+  .navbar {
+      display: inline-block;
+      padding-bottom: 15px;
+  }
+
+  .navbar li {
+      display: inline-block;
+      font-size: 20px;
+      margin-left: 40px;
+  }
+
+  .navbar li a {
+      color: white;
+      text-decoration: none;
+      padding: 5px 5px;
+  }
+
+  .navbar li a:hover {
+      text-decoration: underline;
+      color: rgb(228, 17, 17);
+  }
+
+  .navbar li a.active {
+      color: rgb(228, 17, 17);
+  }
+
+  .social {
+      margin: 0px 8px;
+  }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="navbar.css" />
+    <title>Gallery</title>
+    <style>
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        width: 100%;
+      }
+      .gallery {
+        display: flex;
+        overflow: hidden;
+      }
+      .gallery div {
+        flex: 0.5;
+        border: 2px solid yellow;
+        margin: 5px;
+      }
+      .gallery div img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!--Left Box For Logo-->
+      <div class="left">
+        <a href="./fitnessclub.html" class="logo"
+          ><text
+            >FITNESS <br />
+            <span>CLUB</span></text
+          ></a
+        >
+      </div>
+      <!--Mid Box For Navar-->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./training.html">Training</a></li>
+          <li><a href="./timetable.html">Timetable</a></li>
+          <li><a href="./nutrition.html">Nutrition</a></li>
+          <li><a href="./gallery.html" class="active">Gallery</a></li>
+        </ul>
+      </div>
+      <!--Right Box For Buttons-->
+      <div class="right">
+        <a href="https://www.facebook.com/" class="social"
+          ><img
+            src="./img/Facebook.png"
+            alt=""
+            srcset=""
+            width="30"
+            height="30"
+        /></a>
+        <a href="https://twitter.com/" class="social"
+          ><img src="./img/Twitter.png" alt="" srcset="" width="30" height="30"
+        /></a>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gallery">
+        <div>
+          <img
+            src="https://goldsgym.in/uploads/gallery/compress-photo-1558611848-73f7eb4001a1.jpg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://goldsgym.in/uploads/gallery/compress-photo-1561214078-f3247647fc5e.jpg"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div>
+          <img
+            src="https://goldsgym.in/uploads/gallery/compress-photo-1546483875-ad9014c88eba.jpg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div>
+          <img
+            src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltc3xlbnwwfHwwfHw%3D&w=1000&q=80"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

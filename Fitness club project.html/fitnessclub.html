@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="navbar.css"/>
+    <title>Fitness Centre</title>
+  </head>
+  <style>
+
+    .btn{
+      margin: 0px 20px;
+      background-color: white;
+      color: black;
+      padding: 10px 15px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .btn:hover{
+      background-color: grey; 
+    }
+    .container{
+     display:flex;
+      
+      color: black;
+      /* margin: 40px 885px; */
+      padding: 6px;
+       
+     
+    }
+    .left-img {
+      width: 60%;
+    }
+    
+    .left-img img{
+       width:100%;
+       height:100%;
+       
+    }
+    .right-form {
+       border: 2px solid black;
+      border-radius: 8px;
+      width:40%;
+      height:100%;
+      
+      padding:30px;
+      
+      
+    }
+    .register-form{
+      width:100%;
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      
+    }
+    .form-group{
+      width:100%;
+    }
+    .form-group input{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: black;
+       text-align: center;
+       display: block;
+       width:100%;
+       padding:6px;
+       border:2px solid black;
+       margin-top:20px;
+       font-size: 25px;
+       border-radius:8px;   
+    }
+    .container h1{
+      text-align: center;
+      color:black;
+    }
+    .container button{
+    display: block;
+    width: 38%;
+    margin-top: 20px;
+    padding: 12px;
+    }
+    .boxmodel{
+      color: rgb(16, 13, 13);
+      border: 4px solid  rgb(162, 73, 73);
+      background-color:  rgb(199, 187, 187);
+      text-align: center;
+      margin: 20px 17px;
+      font-size: 25px;
+      padding: 15px 26px;
+      
+      
+    }
+    .boxmodel h2{
+      color: brown;
+    }
+    .event h2{
+      color: rgb(175, 29, 29);
+      font-size: 40px;
+      margin: auto;
+      text-align: center;
+     
+    }
+    .event{
+      color: black;
+      background-color:  rgb(199, 187, 187);
+      border: 4px solid rgb(162, 73, 73);
+      margin: 5px 17px;
+      padding:20px ;
+      font-size: 20px;
+      
+    }
+  </style>
+  <body>
+    <header>
+      <!--Left Box For Logo-->
+      <div class="left">
+      <a href="./fitnessclub.html" class="logo"><text>FITNESS <br/> <span>CLUB</span></text></a>
+      </div>
+      <!--Mid Box For Navar-->
+      <div class="mid">
+         <ul class="navbar">
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./training.html">Training</a></li>
+          <li><a href="./timetable.html">Timetable</a></li>
+          <li><a href="./nutrition.html">Nutrition</a></li>
+          <li><a href="./gallery.html">Gallery</a></li>
+        </ul>
+        
+      </div>
+      <!--Right Boc For Buttons-->
+       <div class="right">
+      <a href="https://www.facebook.com/" class="social"><img src="./img/Facebook.png" alt="" srcset="" width="30" height="30"></a>
+       <a href="https://twitter.com/" class="social"><img src="./img/Twitter.png" alt="" srcset="" width="30" height="30"></a>
+      
+      </div>
+    </header>
+    <div class="container ">
+      <div class="left-img">
+        <img src="https://img.freepik.com/free-photo/woman-doing-squats-smith-machine_7502-9063.jpg?w=1480&t=st=1669304366~exp=1669304966~hmac=e1d4d888b2ea03fe70e0318902172b8916cf39a90860fb3f7d68c66d41ae5083" alt="">
+      </div> 
+      <div class="right-form"><h1>Register Now</h1> 
+      <form class="register-form">
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <div class="form-group">
+          <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+        <button class="btn:">Submit </button>
+      </form> 
+      </div>
+    </div>
+    <div class="boxmodel">
+      <h2>Some Information About Fitness Club</h2>
+      <p>The Fitness Club is a health, recreational, and social facility geared towards exercise, sports, and other physical activities. It may be a for-profit commercial facility or a community- or institutionally-supported cente<p\>
+    </div>
+    <div class="event">
+      <h2>Latest Event</h2>
+      <img src="https://cdn-az.allevents.in/events5/banners/4bf142fc7177e1a6ab7c88dc375b9852de16c8ab4d1270261c5284a0dd6b4482-rimg-w1200-h675-gmir.jpg?v=1669307472" alt="" srcset="" width="100%">
+    </div>
+  </body>
+</html>
